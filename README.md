@@ -1,19 +1,9 @@
 # Subnet Analyzer Project 🔍
 
-<h3> A DevOps pipeline for subnet analysis with integrated security scanning (SAST, secrets detection, container scanning).</h3>
+ A DevOps pipeline for subnet analysis with integrated security scanning (SAST, secrets detection, container scanning).
 
-## 🛠️ Used Tools
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="Python" width="100" height="100"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" title="Docker" width="100" height="100"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" title="Jenkins" width="100" height="100"/>
-  <img src="https://github.com/user-attachments/assets/d2c97615-d9a4-4a23-9b17-7f3174658bef" title="Gitleaks" width="200" height="200" style="display: inline-block;"/>
-  <img src="https://github.com/user-attachments/assets/0a6bb8e7-c3d9-4c4f-a4a2-9457df3bf688" title="Trivy" width="120" height="120" style="display: inline-block;"/>
-  <img src="https://github.com/user-attachments/assets/f654c0fb-0a37-4a8a-bbda-678770c2c810" width="130" alt="Tool Icon"/>
-  <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/9a13ab00-db45-41de-b812-3298bc7fdf73" />
-  
-  
-</p>
+## ️🖥 Project Architecture
+<img width="1507" height="763" alt="Subnet Analyzer Architecture" src="https://github.com/user-attachments/assets/347d1e38-971e-4268-b094-6145a68dbffb" />
 
 ## 📂 Project Structure
 ```bash
@@ -35,8 +25,20 @@
 ├── subnet_report.csv            # Output File
 └── visualize.py                 # Python script
 ```
-## Project Architecture
-<img width="1507" height="763" alt="Subnet Analyzer Architecture" src="https://github.com/user-attachments/assets/347d1e38-971e-4268-b094-6145a68dbffb" />
+
+## 🛠️ Used Tools
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="Python" width="100" height="100"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" title="Docker" width="100" height="100"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" title="Jenkins" width="100" height="100"/>
+  <img src="https://github.com/user-attachments/assets/d2c97615-d9a4-4a23-9b17-7f3174658bef" title="Gitleaks" width="200" height="200" style="display: inline-block;"/>
+  <img src="https://github.com/user-attachments/assets/0a6bb8e7-c3d9-4c4f-a4a2-9457df3bf688" title="Trivy" width="120" height="120" style="display: inline-block;"/>
+  <img src="https://github.com/user-attachments/assets/f654c0fb-0a37-4a8a-bbda-678770c2c810" width="130" alt="Tool Icon"/>
+  <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/9a13ab00-db45-41de-b812-3298bc7fdf73" />
+  
+  
+</p>
+
 
 ## 🚀 Quick Start
 ```bash
@@ -89,9 +91,13 @@ The Jenkinsfile includes these stages:
         Container Scan (Trivy)
 
     4.Execution & Visualization:
-<img width="1057" height="198" alt="image" src="https://github.com/user-attachments/assets/722f9ddb-e7d4-477d-8e0e-e512c3cfb13f" />
+    
+<img width="1200" height="600" alt="network_plot" src="https://github.com/user-attachments/assets/fcf74955-1f26-4526-aa1a-d348cff264b9" />
 
     5. Generating Security Reports
+    
+  <img width="1057" height="198" alt="image" src="https://github.com/user-attachments/assets/722f9ddb-e7d4-477d-8e0e-e512c3cfb13f" />
+    
 <img width="427" height="264" alt="image" src="https://github.com/user-attachments/assets/1a27ace1-c434-4a63-8d80-febc0d8ab00a" />
 
 
