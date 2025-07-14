@@ -42,6 +42,7 @@
 
 ## 🚀 Quick Start
 ```bash
+
 # 1. Clone repo
 git clone https://github.com/marwanmuhammad/devops-subnet-task.git
 cd devops-subnet-task
@@ -76,6 +77,7 @@ chmod +x devsecops/run_devsecops_checks.sh
 ```
 ## ⚙️ Jenkins Pipeline
 The Jenkinsfile includes these stages:
+
     1.Clone the repo
     
     2.Build Docker Image
